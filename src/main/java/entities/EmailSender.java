@@ -31,7 +31,7 @@ public class EmailSender {
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("elkarouitichaimaa@gmail.com", "ujcn inkf xzgf zhki");
+                return new PasswordAuthentication("elkarouitichaimaa@gmail.com", "password");
             }
         });
 
